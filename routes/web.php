@@ -15,3 +15,7 @@ Route::get('/login', function(){
 Route::get('/dashboard', function(){
     return view('dashboard');
 })->name('dashboard');
+
+Route::get('/films', function(){
+    return view("films");
+})->name('films');
